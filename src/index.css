@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  /* font side  */
+
+  --font-main: "Lobster", "sans-serif";
+  
+  --font-rubik: "Rubik", "sans-serif";
+
+  /* text color  */
+
+  --color-primary: #F39C11;
+
+  /* font size  */
+
+  --text-size-xl: 20px, 25px;
+
+  
+  /* hero background image  */
+
+  --background-image-header: url('/src/assets/Header/jeremy-bg.webp');
+
+}
