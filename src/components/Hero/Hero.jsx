@@ -12,7 +12,7 @@ function Hero() {
             </div>
             {/* Arrow Down Button Icon Side  */}
             <div className="flex justify-center items-center pb-10">
-                <button className="w-12 h-12 lg:w-18 lg:h-18 bg-primary flex justify-center items-center rounded-full cursor-pointer"><ArrowDown className="text-white w-5 h-5 lg:w-8 lg:h-8" /></button>
+                <button className="w-12 h-12 lg:w-18 lg:h-18 bg-primary flex justify-center items-center rounded-full cursor-pointer hover:bg-primary/70 hover:transition delay-100"><ArrowDown className="text-white w-5 h-5 lg:w-8 lg:h-8" /></button>
             </div>
         </>
     )

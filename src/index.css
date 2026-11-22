@@ -7,14 +7,33 @@
   
   --font-rubik: "Rubik", "sans-serif";
 
+
   /* text color  */
 
   --color-primary: #F39C11;
+
   --color-dark: #1E1E1E;
+
+
+
+  /* about us background color  */
+
+  --color-cream: #FFF4D8;
+
+
+  /* about us text color  */
+
+  --color-dark-secondary: #0D1015;
+
+  --color-gray: #555555;
+
+
 
   /* font size  */
 
   --text-size-xl: 20px, 25px;
+
+  
 
   
   /* hero background image  */
