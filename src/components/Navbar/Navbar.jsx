@@ -1,7 +1,5 @@
 import React from "react";
-import { Menu } from "lucide-react";
-import { ShoppingCart } from "lucide-react";
-import { LucideUser2 } from "lucide-react";
+import { Menu, ShoppingCart, LucideUser2 } from "lucide-react";
 import LogoImg from '/src/assets/Logo/ngopi-logo.svg'
 
 function Navbar() {
@@ -36,7 +34,7 @@ function Navbar() {
                 <button className="bg-white/30 rounded-full w-8 h-8 md:w-12 md:h-12 flex justify-center items-center cursor-pointer hover:bg-white/50 transition delay-100"><LucideUser2 className="text-white w-4 h-4 md:w-6 md:h-6" /></button>
             </div>
             {/* dropdown menu side and isOpen && */}
-            {isOpen && <div className="absolute top-full left-0 md:hidden w-full bg- h-40 bg-dark/90">
+            {isOpen && <div className="absolute top-full left-0 md:hidden w-full h-40 bg-dark/90">
                 <ul className="flex flex-col justify-center items-center my-3 gap-y-2 list-none text-xl text-white/80 font-rubik font-medium">
                     <li><a href="#" className="hover:text-primary transition delay-100">Home</a></li>
                     <li><a href="#" className="hover:text-primary transition delay-100">About Us</a></li>

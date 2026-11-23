@@ -13,6 +13,12 @@
   --color-primary: #F39C11;
 
   --color-dark: #1E1E1E;
+  
+
+  
+  /* hero background image  */
+
+  --background-image-header: url('/src/assets/Header/jeremy-bg.webp');
 
 
 
@@ -28,6 +34,9 @@
   --color-gray: #555555;
 
 
+  /* features background color  */
+
+  --color-brown: #3D210C;
 
   /* font size  */
 
@@ -36,8 +45,5 @@
   
 
   
-  /* hero background image  */
-
-  --background-image-header: url('/src/assets/Header/jeremy-bg.webp');
 
 }
