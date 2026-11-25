@@ -30,8 +30,8 @@ function Features() {
                 // article side 
                 (<article className="flex flex-col justify-start items-center gap-y-5 px-3 py-5 border-b border-cream/50 last:border-none lg:border-none" key={feature.id}>
                     <img src={feature.img} className="w-25 h-25" />
-                    <h3 className="text-cream text-center text-3xl font-bold max-w-70 lg:text-2xl lg:min-h-16">{feature.title}</h3>
-                    <p className="text-cream text-center max-w-sm lg:max-w-57">{feature.desc}</p>
+                    <h3 className="text-cream text-center text-3xl font-bold font-rubik max-w-70 lg:text-2xl lg:min-h-16">{feature.title}</h3>
+                    <p className="text-cream text-center max-w-sm font-rubik lg:max-w-57">{feature.desc}</p>
                 </article>)
                 )}
             </div>
