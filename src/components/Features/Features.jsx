@@ -22,15 +22,15 @@ const featuresData = [
 
 function Features() {
     return (
-        <section className="w-full min-h-330 bg-brown px-3 py-3 lg:min-h-130">
-            <h2 className="text-center text-cream text-3xl/12.5 font-main">Features</h2>
+        <section className="w-full min-h-330 bg-brown px-3 py-3 lg:min-h-130 lg:py-10">
+            <h2 className="text-center text-cream text-3xl/12.5 font-main lg:text-5xl">Features</h2>
             <div className="grid grid-cols-1 gap-y-10 my-5 lg:grid-cols-4">
                 {/* Features Data using Map method  */}
                 {featuresData.map(feature =>
                 // article side 
                 (<article className="flex flex-col justify-start items-center gap-y-5 px-3 py-5 border-b border-cream/50 last:border-none lg:border-none" key={feature.id}>
                     <img src={feature.img} className="w-25 h-25" />
-                    <h3 className="text-cream text-center text-3xl font-bold font-rubik max-w-70 lg:text-2xl lg:min-h-16">{feature.title}</h3>
+                    <h3 className="text-cream text-center text-3xl font-bold font-rubik max-w-70 lg:text-2xl lg:min-h-18 lg:text-3xl">{feature.title}</h3>
                     <p className="text-cream text-center max-w-sm font-rubik lg:max-w-57">{feature.desc}</p>
                 </article>)
                 )}

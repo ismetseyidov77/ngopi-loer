@@ -13,16 +13,16 @@ const menuData = [
 
 function OurMenu() {
     return (
-        <section className="w-full min-h-447 bg-cream py-3 flex flex-col">
-            <h2 className="text-center text-3xl/12.5 text-dark-secondary font-main">Our Menu</h2>
+        <section className="w-full min-h-435 bg-cream py-3 flex flex-col lg:min-h-165 lg:py-10">
+            <h2 className="text-center text-3xl/12.5 text-dark-secondary font-main lg:text-5xl">Our Menu</h2>
             <div className="flex justify-end items-center px-5 py-2">
-                <button className="bg-primary px-2 py-3 text-white text-sm/5 font-rubik font-light rounded-lg hover:bg-primary/70">See All Product</button>
+                <button className="bg-primary px-2 py-3 text-white text-sm/5 font-rubik font-light rounded-lg hover:bg-primary/70 lg:text-xl lg:px-5 py-3">See All Product</button>
             </div>
-            <div className="flex flex-col justify-center items-center gap-y-5 px-5 py-2">
+            <div className="flex flex-col justify-center items-center gap-y-5 px-5 py-2 lg:flex-row lg:gap-x-5">
                 {/* menu data using map method side  */}
                 {menuData.map(item => (
                     <article className="w-full h-128 flex flex-col justify-center items-start rounded-2xl bg-white font-rubik px-4.5 gap-y-2" key={item.id}>
-                        <img className="w-full h-62" src={item.img} alt={item.title} />
+                        <img className="w-full h-62 object-cover rounded-2xl" src={item.img} alt={item.title} />
                         <h3 className=" text-2xl font-semibold text-dark-secondary">{item.title}</h3>
                         {/* icon and rating side  */}
                         <div className="flex justify-center items-center gap-x-2">
@@ -31,7 +31,7 @@ function OurMenu() {
                         </div>
                         <p className="text-sm/5 text-dark-secondary font-light max-w-xs">{item.desc}</p>
                         <div className="w-full flex justify-between items-center">
-                            <span className="font-rubik font-bold text-3xl">{item.price}</span>
+                            <span className="font-rubik font-bold text-3xl lg:text-4xl">{item.price}</span>
                             <button className="font-rubik text-primary border border-primary rounded-xl flex justify-center items-center text-sm px-3.5 py-2 gap-x-2"><ShoppingCart className="w-4 h-4 text-primary"/>Add to Cart</button>
                         </div>
                     </article>

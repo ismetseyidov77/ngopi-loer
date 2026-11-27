@@ -22,24 +22,29 @@
 
 
 
-  /* about us background color  */
+  /* about us and our menu background color  */
 
   --color-cream: #FFF4D8;
 
 
-  /* about us text color  */
+  /* about us and our menu text color  */
 
   --color-dark-secondary: #0D1015;
 
   --color-gray: #555555;
 
 
-  /* features background color  */
+  /* features and footer background color  */
 
   --color-brown: #3D210C;
 
   /* font size  */
 
   --text-size-xl: 20px, 25px;
+
+
+  /* placeholder text color  */
+
+  --color-place-gray: #DADADA;
 
 }
